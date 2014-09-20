@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header {
+	float: center;
+	font-size: 16px;
+	/*margin: 20px 20px 20px 20px;
+	width:80%;*/
+	background-color: #FFD4D4;
+	padding: 20px 20px 20px 20px;
+}
+.content {
+	margin-left: auto;
+    margin-right: auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	float: center;
+	width: 80%;
+	font-size: 14px;
+}
+.search_input {
+	width: 80%;
+	text-align: center;
+	background-color: #CCFFF1;
+	margin: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
+}
+.cart {
+	text-align: left;
+}
+.results {
+	text-align: center;
+}
+.detail {
+	text-align: left;
+}
+.footer {
+	font-size: 16px;
+	/*
+	width:80%;
+	margin: 20px 20px 20px 20px;*/
+	background-color: #FFD4D4;
+	padding: 20px 20px 20px 20px;
+}
+.copyright {
+	text-align: center;
+	font-size: 12px;
+}

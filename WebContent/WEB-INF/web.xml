@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>Assignment0830</display-name>
+	<welcome-file-list>
+		<welcome-file>search.jsp</welcome-file>
+	</welcome-file-list>
+
+
+	<context-param>
+		<param-name>cart_display_number</param-name>
+		<param-value>10</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>result_display_number</param-name>
+		<param-value>10</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>data_file_name</param-name>
+		<param-value>/WEB-INF/ands_registry_dc.xml</param-value>
+	</context-param>
+
+
+
+
+	<servlet>
+		<servlet-name>MainServlet</servlet-name>
+		<servlet-class>com.sensitiver.ands.MainServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MainServlet</servlet-name>
+		<url-pattern>/main_servlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>MainServlet</servlet-name>
+		<url-pattern>/shopping_cart</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MainServlet</servlet-name>
+		<url-pattern>/detail</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>MainServlet</servlet-name>
+		<url-pattern>/search</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>MainServlet</servlet-name>
+		<url-pattern>/welcome</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>MainServlet</servlet-name>
+		<url-pattern>/clear_session</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>MainServlet</servlet-name>
+		<url-pattern>/add_to_cart</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>MainServlet</servlet-name>
+		<url-pattern>/remove_from_cart</url-pattern>
+	</servlet-mapping>
+
+</web-app>
